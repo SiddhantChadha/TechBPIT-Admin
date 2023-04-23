@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native'
 import React from 'react'
 
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -12,8 +11,8 @@ const DrawerNavigation = () => {
   return (
     <Drawer.Navigator>
     <Drawer.Screen name="Groups" component={Groups} />
-    <Drawer.Screen name="Users" component={Posts} />
-    <Drawer.Screen name="Logout" component={Users} />
+    <Drawer.Screen name="Users" component={Users} />
+    <Drawer.Screen name="Posts" component={Posts} />
   </Drawer.Navigator>
   )
 }
