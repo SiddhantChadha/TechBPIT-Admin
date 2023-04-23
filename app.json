@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ddd34716-310d-4d0c-950b-eabe415360cc"
+      }
+    },
+    "owner": "sid.01chadha"
   }
 }
